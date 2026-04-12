@@ -1,0 +1,7 @@
+{
+  "name": "Axis Gear",
+  "content_in_root": false,
+  "render_readme": true,
+  "filename": "axis_gear",
+  "homeassistant": "2026.3.0"
+}

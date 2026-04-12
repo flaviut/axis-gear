@@ -1,0 +1,64 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Select your Axis Gear device.",
+        "data": {
+          "address": "Device"
+        }
+      },
+      "bluetooth_confirm": {
+        "title": "Axis Gear found",
+        "description": "Add the Axis Gear at `{address}` to your Home Assistant installation?"
+      }
+    },
+    "abort": {
+      "already_configured": "This device is already configured.",
+      "no_devices_found": "No Axis Gear devices found.",
+      "not_supported": "This device is not a supported Axis Gear.",
+      "device_not_found": "Device could not be found. Make sure it is powered on and nearby."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Recalibrate Axis Gear",
+        "description": "This will recalibrate the open and closed positions. You can also calibrate using the Axis Gear mobile app.\n\nPress submit to begin."
+      },
+      "calibrate_open": {
+        "title": "Set open position",
+        "description": "Jog the shade to its fully **open** position.",
+        "menu_options": {
+          "open_jog": "Jog shade",
+          "open_reverse": "Reverse motor direction",
+          "open_set": "Done: Set this position"
+        }
+      },
+      "open_jog": {
+        "title": "Jog shade (open position)",
+        "description": "Choose a direction and duration to move the shade.",
+        "data": {
+          "direction": "Direction",
+          "duration": "Duration"
+        }
+      },
+      "calibrate_close": {
+        "title": "Set closed position",
+        "description": "Jog the shade to its fully **closed** position.",
+        "menu_options": {
+          "close_jog": "Jog shade",
+          "close_reverse": "Reverse motor direction",
+          "close_set": "Done: Set this position"
+        }
+      },
+      "close_jog": {
+        "title": "Jog shade (closed position)",
+        "description": "Choose a direction and duration to move the shade.",
+        "data": {
+          "direction": "Direction",
+          "duration": "Duration"
+        }
+      }
+    }
+  }
+}
