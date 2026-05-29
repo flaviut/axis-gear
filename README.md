@@ -22,7 +22,7 @@ For me, and [for others](https://community.hubitat.com/t/axis-gear-does-the-righ
 
 ### Manual
 
-1. Copy the `components/axis_gear` directory to your Home Assistant `custom_components/axis_gear` directory
+1. Copy the `custom_components/axis_gear` directory to your Home Assistant `custom_components/axis_gear` directory
 2. Restart Home Assistant
 
 ### Setup
